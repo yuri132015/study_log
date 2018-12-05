@@ -47,6 +47,9 @@ music8 = Music.new(title: "Hero", release: 2016)
 
 music = [music1,music2,music3,music4,music5,music6,music7,music8]
 
+puts ""
+puts "曲目"
+
 music.each.with_index(1) do |m,i|
   puts "#{i}.#{m.disp}"
 end
