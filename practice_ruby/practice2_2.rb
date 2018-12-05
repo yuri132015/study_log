@@ -41,8 +41,8 @@ while true
 
   puts ""
   number = gets.chomp.to_i - 1
-  select = music[number]
-  puts "『#{music[number].title}』に投票されました！"
+  selected = music[number]
+  puts "『#{selected.title}』に投票されました！"
   music[number].plus_vote
 
   puts ""
