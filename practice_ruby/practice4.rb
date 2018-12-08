@@ -1,6 +1,6 @@
 # 容器クラス作成
 class Container
-  attr_accessor :capacity, :code
+  attr_accessor :code
 
   # コードの初期値設定
   def initialize (code:)
