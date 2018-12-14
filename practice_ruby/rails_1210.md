@@ -57,4 +57,6 @@
 
   ・`git push heroku master`
 
+  ・`heroku run rails db:migrate`
+
   ・`heroku open`
